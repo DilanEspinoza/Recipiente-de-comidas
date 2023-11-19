@@ -1,3 +1,7 @@
+
+
+<h1 align="center">Recipientes de comidas Ecuatorianas </h1>
+
 Este un un proyecto realizado del bootcamp de "The Odin Project" el cual en su seccion de fundamentos, este es el primer ejercicio practico 
 que te ponen para realizar y comprobar por ti mismo tus habilidades recient adquiridas.
 
@@ -26,17 +30,16 @@ Una inspiracion de una pagina que me gusto su sencillez
 la persona que realizo esta pagina sale tambien en el rankin en el puesto N° 4 
 ![image](https://github.com/DilanEspinoza/Recipiente-de-comidas/assets/151317076/7270b026-5ad5-4759-84fb-ab9a08a9fc93)
 
-
 Muy parecidas no?
+Pues dejame deciter que si entras al codigo fuente de las dos paginas seran muy parecidas, su diferencia sera muy dificil de notar si no eres un desarollador "Senior" 
+como yo 🤠
 
-Pues dejame deciter que si entras al codigo fuente de las dos paginas seran muy parecidas, su tiene una diferencia sera muy dificil de notar si no eres un desarollador "Senior" 
 
-Codigo Junior (top 4):
-![image](https://github.com/DilanEspinoza/Recipiente-de-comidas/assets/151317076/35c63139-e63c-4203-a13f-5fb03f4412c2)
-
-Codigo Senior (nisiquiera aparece en el top) :
-
-![image](https://github.com/DilanEspinoza/Recipiente-de-comidas/assets/151317076/f3c78007-0787-4388-8fcc-429437ae17f4)
-![image](https://github.com/DilanEspinoza/Recipiente-de-comidas/assets/151317076/04658067-7803-45a3-8491-378dbfe6b665)
-
+<h2 align="center">
+  ✔️ Tecnologias usadas
+</h2>
+<ul>
+  <li>👉 Html</li>
+  <li>👉 Css</li>
+</ul>
 
