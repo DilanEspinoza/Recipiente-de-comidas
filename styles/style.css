@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+  color: black;
+}
+
+img {
+  width: 200px;
+}
+
+header {
+  height: 20vh;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+main {
+  height: 100vh;
+}
+
+.contenedor__comidas {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.contenedor__comida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contenedor__imagen img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.contenedor__imagen img:hover {
+  width: 370px;
+  height: 470px;
+  box-shadow: 0px 0px 10px 1px blue;
+  border-radius: 20px;
+}
+
+figcaption {
+  font-size: 30px;
+}
