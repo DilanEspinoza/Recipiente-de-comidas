@@ -38,8 +38,8 @@ como yo 🤠
 <h2 align="center">
   ✔️ Tecnologias usadas
 </h2>
-<ul>
-  <li>👉 Html</li>
-  <li>👉 Css</li>
+<ul align="center">
+  <li>Html</li>
+  <li>Css</li>
 </ul>
 
