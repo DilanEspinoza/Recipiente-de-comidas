@@ -24,7 +24,7 @@ img {
 }
 
 header {
-  height: 20vh;
+  height: auto;
   text-align: center;
 }
 
@@ -38,6 +38,10 @@ nav img {
   width: 100px;
   height: 100px;
   object-fit: contain;
+}
+
+#icono-menu {
+  display: none;
 }
 
 main {
@@ -97,7 +101,7 @@ article:hover {
 
 .articulo-1 {
   margin-bottom: 10px;
-  height: 450px;
+  height: auto;
 }
 
 .contenedor__parrafos {
@@ -138,4 +142,65 @@ article:hover {
 
 .contenedor__pasos li {
   margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #icono-menu {
+    display: block;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    z-index: 2;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .contenido__izquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .contenido__izquierda img {
+    max-width: 400px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .contenedor__ingredientes {
+    display: none;
+    right: 100%;
+  }
+
+  .contenedor__ingredientes-activo {
+    display: block;
+    position: sticky;
+    top: 10px;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 0px;
+    right: 0%;
+    z-index: 1;
+    transform: translateY(10px);
+    transition: 0.5s ease-in;
+  }
+
+  .ingredientes {
+    padding: 20px;
+  }
 }

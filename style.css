@@ -32,6 +32,10 @@ nav img {
   object-fit: contain;
 }
 
+#icono-menu {
+  display: none;
+}
+
 main {
   height: 100vh;
 }
@@ -70,4 +74,24 @@ main {
 
 figcaption {
   font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    margin-top: 80px;
+  }
+
+  .contenedor__imagen img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contenedor__imagen img {
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 20px;
+  }
 }
